@@ -16,45 +16,7 @@ Real-world platforms like Spotify do actually use a mix of collaborative filteri
 
 ## Terminal Output Screenshots
 
-### High-Energy Pop Profile
-
-=== High-Energy Pop ===
-Sunrise City - Score: 4.47
-  Because: genre match (+2.0), mood match (+1.0), energy proximity (+1.47)
-Gym Hero - Score: 3.30
-  Because: genre match (+2.0), energy proximity (+1.30)
-Rooftop Lights - Score: 2.44
-  Because: mood match (+1.0), energy proximity (+1.44)
-Night Drive Loop - Score: 1.42
-  Because: energy proximity (+1.42)
-Storm Runner - Score: 1.33
-  Because: energy proximity (+1.33)
-
-### Chill Lofi Profile
-=== Chill Lofi ===
-Library Rain - Score: 4.50
-  Because: genre match (+2.0), mood match (+1.0), energy proximity (+1.50)
-Midnight Coding - Score: 4.40
-  Because: genre match (+2.0), mood match (+1.0), energy proximity (+1.40)
-Focus Flow - Score: 3.42
-  Because: genre match (+2.0), energy proximity (+1.42)
-Spacewalk Thoughts - Score: 2.40
-  Because: mood match (+1.0), energy proximity (+1.40)
-Coffee Shop Stories - Score: 1.47
-  Because: energy proximity (+1.47)
-
-### Deep Intense Rock Profile
-=== Deep Intense Rock ===
-Storm Runner - Score: 4.44
-  Because: genre match (+2.0), mood match (+1.0), energy proximity (+1.44)
-Gym Hero - Score: 2.47
-  Because: mood match (+1.0), energy proximity (+1.47)
-Sunrise City - Score: 1.30
-  Because: energy proximity (+1.30)
-Rooftop Lights - Score: 1.22
-  Because: energy proximity (+1.22)
-Night Drive Loop - Score: 1.20
-  Because: energy proximity (+1.20)
+![Terminal Output](outputs.png)
 
 ## Potential Biases
 Honestly, this system may over-prioritize genre since it carries the highest point weight (+2.0). A song that perfectly matches mood and energy but has a different genre will almost always rank lower than a genre-matching song with poor mood and energy alignment.
